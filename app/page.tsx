@@ -10,6 +10,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <h1 className="text-center font-3xl font-bold">Inventory Data Visualization</h1>
         <p>Please upload a CSV file containing the inventory data. The file should have the following columns: Product, Stock Quantity, Status, Price, and Fulfillment Center.</p>
+        <a href="/Задание для Frontend Разработчика.xlsx" download className="text-blue-500 underline">Download Sample CSV File</a>
         <FileUpload />
         <KeyMetrics />
         <InventoryTable />
