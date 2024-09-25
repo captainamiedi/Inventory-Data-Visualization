@@ -13,4 +13,5 @@ export interface InventoryItem {
 export interface InventoryState {
   totalStock: number;
   averagePrice: number;
+  totalUnits: number
 }
